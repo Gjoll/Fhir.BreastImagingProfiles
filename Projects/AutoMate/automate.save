@@ -14,18 +14,18 @@
 		},
 		{
 			"name": "FSH",
-			"watchPaths": ["..\\IG\\Input\\FSH"],
+			"watchPaths": ["..\\FSH"],
 			"commands": [
 				{
-  			        "workingDir": "..\\IG",
+  			        "workingDir": "..",
 					"cmdPath": "%ApplicationData%\\npm\\sushi.cmd",
-					"cmdArgs": "--snapshot"
+					"cmdArgs": "FSH --snapshot"
 				}
 			]
-		} ,
+		},
 		{
 			"name": "FGraph",
-			"watchPaths": ["..\\IG\\fsh-generated", "..\\GraphFiles"],
+			"watchPaths": ["..\\Build\\fsh-generated", "..\\GraphFiles"],
 			"commands": [
 				{
   			        "workingDir": "..",
