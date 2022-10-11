@@ -1,35 +1,33 @@
-Profile: AbnormalityFatNecrosis
+Profile: ForeignObjectAbnormality
 Parent: us-core-observation-imaging
-Title: "Fat Necrosis Abnormality"
+Title: "Foreign Object Abnormality"
 Description: """
-    Fat necrosis abnormality observation.
-    """
+  Foreign Object abnormality observation.
+  """
 
-  #apply Resource.Fix("1", "code", "ObservationCodesCS#abnormalityFatNecrosisObservation", "Code")
+  #apply Resource.Fix("1", "code", "ObservationCodesCS#abnormalityForeignObjectObservation", "Code")
+
+  #apply Observation.Component.Add("abnormalityForeignObjectType", "1..1", "Foreign Object Type", "Foreign Object Type",
+  #  """
+  #  This slice contains the optional component that refine the foreign object type.
+  #  The value of this component is a codeable concept chosen from the ForeignObjectAbnormalityTypeVS valueset.
+  #  """,
+  #  "ObservationComponentSliceCodesCS#abnormalityForeignObjectType")
+
+  #apply Observation.Component.SetConcept("abnormalityForeignObjectType", "1..1", "ForeignObjectAbnormalityTypeVS")
 
   #apply Observation.Device.Zero()
   #apply Observation.Value.Zero()
   #apply Observation.BreastBodyLocationRequiredFragment()
-
   #apply Observation.Component.ObservedChangesFragment()
-  #apply Observation.Hasmember.BiRadAssessmentCategoryFragment()
-  #apply Observation.Component.ShapeFragment()
-  #apply Observation.Component.DensityFragment()
-  #apply Observation.Component.MarginFragment()
-  #apply Observation.Component.OrientationFragment()
-  #apply Observation.Component.NotPreviouslySeenFragment()
-  #apply Observation.Component.ObservedCountFragment()
   #apply Observation.Component.ObservedSizeFragment()
-  #apply Observation.Component.ObservedDistributionFragment()
+  #apply Observation.Hasmember.BiRadAssessmentCategoryFragment()
+  #apply Observation.Component.NotPreviouslySeenFragment()
   #apply Observation.Component.CorrespondsWithFragment()
   #apply Observation.Component.PreviouslyDemonstratedByFragment()
- 
+
   #apply Observation.HasMember.AssociatedFeatureFragment()
   #apply Observation.HasMember.ConsistentWithFragment()
-
-
-
-
 
 
   #// -----------------------------------------
@@ -38,10 +36,15 @@ Description: """
   #use IG
     #apply IntroDocProfile("""
     # <p>
-    # <b>Fat Necrosis Abnormality Observation</b>
+    # <b>Foreign Object Observation</b>
     # </p>
     # <p>
-    # [PR]
+    # This resource contains information about a foreign object observation.
+    # </p>
+    # <p>
+    # A foreign object is some non-biological item observed in the patient.
+    #  These can include misplaced surgical items, trauma related items (bullet fragments), or 
+    # jewelery.
     # </p>
     #""")
 
@@ -52,12 +55,13 @@ Description: """
   #// Graph Macros
   #// -----------------------------------------
   #use Graph
-    #apply NodeProfile("", "Fat Necrosis")
+    #apply NodeProfile("", "Foreign Object")
   #end
-
+  
   #// -----------------------------------------
   #// Code API Macros
   #// -----------------------------------------
   #use ApiBuild
     #apply DefineClass("DomainResource")
   #end
+  

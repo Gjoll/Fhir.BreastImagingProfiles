@@ -1,9 +1,9 @@
 // $FIXME
-ValueSet:  AbnormalityMassTypeVS
-Title: "Mass Type ValueSet"
+ValueSet:  MassAbnormalityTypeVS
+Title: "Mass Abnormality Type ValueSet"
 Description:  "Mass Type Value Set"
 * insert ValueSet_Common
-* codes from system AbnormalityMassTypeCS
+* codes from system MassAbnormalityTypeCS
 
 
   #// -----------------------------------------
@@ -23,8 +23,8 @@ Description:  "Mass Type Value Set"
 
 
 
-CodeSystem:  AbnormalityMassTypeCS
-Title: "Mass Type CodeSystem"
+CodeSystem:  MassAbnormalityTypeCS
+Title: "Mass Abnormality Type CodeSystem"
 Description:  "Mass Type CodeSystem"
 * insert CodeSystem_Common
 

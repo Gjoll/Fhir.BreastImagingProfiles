@@ -1,21 +1,11 @@
-
-Profile: AbnormalityAsymmetry
+Profile: ArchitecturalDistortionAbnormality
 Parent: us-core-observation-imaging
-Title: "Asymmetry Abnormality"
+Title: "Architectural Distortion Abnormality"
 Description: """
-    Asymmetry abnormality observation.
+    Architectural Distortion abnormality observation.
     """
 
-  #apply Resource.Fix("1", "code", "ObservationCodesCS#abnormalityAsymmetryObservation", "Code")
-
-  #apply Observation.Component.Add("asymmetryType", "1..1", "Asymmetry Type", "Asymmetry Type",
-  #  """
-  #  This slice contains the optional component that refine the asymmetry type.
-  #  The value of this component is a codeable concept chosen from the AbnormalityAsymmetryTypeVS valueset.
-  #  """,
-  #   "ObservationComponentSliceCodesCS#abnormalityAsymmetryType")
-  
-  #apply Observation.Component.SetConcept("asymmetryType", "1..1", "AbnormalityAsymmetryTypeVS")
+  #apply Resource.Fix("1", "code", "ObservationCodesCS#abnormalityArchitecturalDistortionObservation", "Code")
 
   #apply Observation.Device.Zero()
   #apply Observation.Value.Zero()
@@ -24,12 +14,18 @@ Description: """
   #apply Observation.Component.ObservedChangesFragment()
   #apply Observation.Hasmember.BiRadAssessmentCategoryFragment()
   #apply Observation.Component.NotPreviouslySeenFragment()
-  #apply Observation.Component.ObservedCountFragment()
   #apply Observation.Component.CorrespondsWithFragment()
   #apply Observation.Component.PreviouslyDemonstratedByFragment()
 
   #apply Observation.HasMember.AssociatedFeatureFragment()
   #apply Observation.HasMember.ConsistentWithFragment()
+
+
+
+
+
+
+
 
   #// -----------------------------------------
   #// IG Macros
@@ -37,18 +33,18 @@ Description: """
   #use IG
     #apply IntroDocProfile("""
     # <p>
-    # <b>Asymmetry Abnormality Observation</b>
+    # Architectural Distortion Observation
     # </p>
     #""")
 
     #apply GroupMemberProfile("CommonResources", "%Title%")
   #end
-
+  
   #// -----------------------------------------
   #// Graph Macros
   #// -----------------------------------------
   #use Graph
-    #apply NodeProfile("", "Asymmetry")
+    #apply NodeProfile("", "Architectural Distortion")
   #end
   
   #// -----------------------------------------
@@ -57,4 +53,3 @@ Description: """
   #use ApiBuild
     #apply DefineClass("DomainResource")
   #end
-  
