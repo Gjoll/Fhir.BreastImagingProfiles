@@ -1,34 +1,44 @@
-
-Profile: AbnormalityForeignObject
+Profile: CystAbnormality
 Parent: us-core-observation-imaging
-Title: "Foreign Object Abnormality"
+Title: "Cyst Abnormality"
 Description: """
-  Foreign Object abnormality observation.
+  Cyst abnormality observation.
   """
 
-  #apply Resource.Fix("1", "code", "ObservationCodesCS#abnormalityForeignObjectObservation", "Code")
+  #apply Resource.Fix("1", "code", "ObservationCodesCS#abnormalityCyst", "Code")
 
-  #apply Observation.Component.Add("abnormalityForeignObjectType", "1..1", "Foreign Object Type", "Foreign Object Type",
+  #apply Observation.Component.Add("cystType", "0..1", "Cyst Type", "Cyst Type",
   #  """
-  #  This slice contains the optional component that refine the foreign object type.
-  #  The value of this component is a codeable concept chosen from the AbnormalityForeignObjectTypeVS valueset.
+  #  This slice contains the optional component that refine the cyst type.
+  #  The value of this component is a codeable concept chosen from the CystAbnormalityTypeVS valueset.
   #  """,
-  #  "ObservationComponentSliceCodesCS#abnormalityForeignObjectType")
+  #  "ObservationComponentSliceCodesCS#abnormalityCystType")
 
-  #apply Observation.Component.SetConcept("abnormalityForeignObjectType", "1..1", "AbnormalityForeignObjectTypeVS")
+  #apply Observation.Component.SetConcept("cystType", "1..1", "CystAbnormalityTypeVS")
 
   #apply Observation.Device.Zero()
   #apply Observation.Value.Zero()
   #apply Observation.BreastBodyLocationRequiredFragment()
+  
   #apply Observation.Component.ObservedChangesFragment()
-  #apply Observation.Component.ObservedSizeFragment()
   #apply Observation.Hasmember.BiRadAssessmentCategoryFragment()
+  #apply Observation.Component.ShapeFragment()
+  #apply Observation.Component.DensityFragment()
+  #apply Observation.Component.MarginFragment()
+  #apply Observation.Component.OrientationFragment()
+  #apply Observation.Component.ObservedCountFragment()
+  #apply Observation.Component.ObservedDistributionFragment()
+  #apply Observation.Component.ObservedSizeFragment()
   #apply Observation.Component.NotPreviouslySeenFragment()
   #apply Observation.Component.CorrespondsWithFragment()
   #apply Observation.Component.PreviouslyDemonstratedByFragment()
 
   #apply Observation.HasMember.AssociatedFeatureFragment()
   #apply Observation.HasMember.ConsistentWithFragment()
+  #apply Observation.HasMember.TumorSatelliteFragment()
+
+
+
 
 
   #// -----------------------------------------
@@ -37,32 +47,28 @@ Description: """
   #use IG
     #apply IntroDocProfile("""
     # <p>
-    # <b>Foreign Object Observation</b>
+    # <b>Cyst Abnormality Observation</b>
     # </p>
     # <p>
-    # This resource contains information about a foreign object observation.
-    # </p>
-    # <p>
-    # A foreign object is some non-biological item observed in the patient.
-    #  These can include misplaced surgical items, trauma related items (bullet fragments), or 
-    # jewelery.
+    # This resource contains information about a cyst abnormality observation.
     # </p>
     #""")
 
+
     #apply GroupMemberProfile("CommonResources", "%Title%")
   #end
-  
+
   #// -----------------------------------------
   #// Graph Macros
   #// -----------------------------------------
   #use Graph
-    #apply NodeProfile("", "Foreign Object")
+    #apply NodeProfile("", "Cyst")
   #end
-  
+
+
   #// -----------------------------------------
   #// Code API Macros
   #// -----------------------------------------
   #use ApiBuild
     #apply DefineClass("DomainResource")
   #end
-  

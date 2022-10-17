@@ -1,9 +1,9 @@
 // $FIXME
-ValueSet:  AbnormalityDuctTypeVS
-Title: "Duct Type ValueSet"
+ValueSet:  DuctAbnormalityTypeVS
+Title: "Duct Abnormality Type ValueSet"
 Description: "Duct Type Value Set"
 * insert ValueSet_Common
-* codes from system AbnormalityDuctTypeCS
+* codes from system DuctAbnormalityTypeCS
 
   #// -----------------------------------------
   #// IG Macros
@@ -21,8 +21,8 @@ Description: "Duct Type Value Set"
   #end
 
 
-CodeSystem: AbnormalityDuctTypeCS
-Title: "Duct Type CodeSystem"
+CodeSystem: DuctAbnormalityTypeCS
+Title: "Duct Abnormality Type CodeSystem"
 Description: "Duct types code system."
 * insert CodeSystem_Common
 

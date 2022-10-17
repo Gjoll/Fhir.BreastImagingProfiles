@@ -1,9 +1,9 @@
 // $FIXME
-ValueSet: AbnormalityCystTypeVS
-Title: "Cyst Type Value Set"
+ValueSet: CystAbnormalityTypeVS
+Title: "Cyst Abnormality Type Value Set"
 Description: "Cyst type Value Set."
 * insert ValueSet_Common
-* codes from system AbnormalityCystTypeCS
+* codes from system CystAbnormalityTypeCS
   
   #// -----------------------------------------
   #// IG Macros
@@ -22,8 +22,8 @@ Description: "Cyst type Value Set."
 
 
   
-CodeSystem: AbnormalityCystTypeCS
-Title: "Cyst Type CodeSystem"
+CodeSystem: CystAbnormalityTypeCS
+Title: "Cyst Abnormality Type CodeSystem"
 Description: "Cyst type CodeSystem."
 * insert CodeSystem_Common
 

@@ -1,9 +1,9 @@
 // $FIXME
-ValueSet:  AbnormalityForeignObjectTypeVS
-Title: "Foreign Object Type ValueSet"
+ValueSet:  ForeignObjectAbnormalityTypeVS
+Title: "Foreign Object Abnormality Type ValueSet"
 Description:  "Foreign Object Type Value Set"
 * insert ValueSet_Common
-* codes from system AbnormalityForeignObjectTypeCS
+* codes from system ForeignObjectAbnormalityTypeCS
 
   #// -----------------------------------------
   #// IG Macros
@@ -19,8 +19,8 @@ Description:  "Foreign Object Type Value Set"
     #apply DefineValueSet()
   #end
 
-CodeSystem:  AbnormalityForeignObjectTypeCS
-Title: "Foreign Object Type CodeSystem"
+CodeSystem:  ForeignObjectAbnormalityTypeCS
+Title: "Foreign Object Abnormality Type CodeSystem"
 Description:  "Foreign Object Type CodeSystem"
 * insert CodeSystem_Common
 

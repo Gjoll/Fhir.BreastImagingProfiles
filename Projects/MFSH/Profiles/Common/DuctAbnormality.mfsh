@@ -1,5 +1,4 @@
-
-Profile: AbnormalityDuct
+Profile: DuctAbnormality
 Parent: us-core-observation-imaging
 Title: "Duct Abnormality"
 Description: """
@@ -14,7 +13,7 @@ Description: """
   #  """,
   #  "ObservationComponentSliceCodesCS#abnormalityDuctType")
 
-  #apply Observation.Component.SetConcept("ductType", "1..1", "AbnormalityDuctTypeVS")
+  #apply Observation.Component.SetConcept("ductType", "1..1", "DuctAbnormalityTypeVS")
 
 
   #apply Observation.Device.Zero()

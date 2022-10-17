@@ -1,16 +1,25 @@
-Profile: AbnormalitySkinLesion
+Profile: FibroadenomaAbnormality
 Parent: us-core-observation-imaging
-Title: "Skin Lesion Abnormality"
+Title: "Fibroadenoma Abnormality"
 Description: """
-  Skin Lesion abnormality observation.
+  Fibroadenoma abnormality observation.
   """
 
-  #apply Resource.Fix("1", "code", "ObservationCodesCS#abnormalitySkinLesionObservation", "Code")
+  #apply Resource.Fix("1", "code", "ObservationCodesCS#abnormalityFibroadenomaObservation", "Code")
+
+  #apply Observation.Component.Add("fibroAdenomaType", "0..1", "Fibroadenoma Abnormality", "Fibroadenoma Abnormality",
+  #  """
+  #  This resource contains
+  #  information about a Fibroadenoma abnormality observation.
+  #  """,
+  #  "ObservationComponentSliceCodesCS#abnormalityFibroAdenomaType")
+
+  #apply Observation.Component.SetConcept("fibroAdenomaType", "1..1", "FibroAdenomaAbnormalityTypeVS")
 
   #apply Observation.Device.Zero()
   #apply Observation.Value.Zero()
   #apply Observation.BreastBodyLocationRequiredFragment()
-
+  
   #apply Observation.Component.ObservedChangesFragment()
   #apply Observation.Hasmember.BiRadAssessmentCategoryFragment()
   #apply Observation.Component.ShapeFragment()
@@ -18,15 +27,11 @@ Description: """
   #apply Observation.Component.MarginFragment()
   #apply Observation.Component.OrientationFragment()
   #apply Observation.Component.ObservedCountFragment()
-  #apply Observation.Component.ObservedSizeFragment()
   #apply Observation.Component.ObservedDistributionFragment()
-  #apply Observation.Component.NotPreviouslySeenFragment()
-  #apply Observation.Component.CorrespondsWithFragment()
+  #apply Observation.Component.ObservedSizeFragment()
   #apply Observation.Component.PreviouslyDemonstratedByFragment()
 
   #apply Observation.HasMember.AssociatedFeatureFragment()
-  #apply Observation.HasMember.ConsistentWithFragment()
-  #apply Observation.HasMember.TumorSatelliteFragment()
 
 
   #// -----------------------------------------
@@ -35,10 +40,10 @@ Description: """
   #use IG
     #apply IntroDocProfile("""
     # <p>
-    # <b>Skin Lesion Abnormality Observation</b>
+    # <b>Fibroadenoma Abnormality Observation</b>
     # </p>
     # <p>
-    # This resource contains information about a skin lesion abnormality observation.
+    # This resource contains information about a fibroadenoma abnormality observation.
     # </p>
     #""")
 
@@ -49,7 +54,7 @@ Description: """
   #// Graph Macros
   #// -----------------------------------------
   #use Graph
-    #apply NodeProfile("", "Skin Lesion")
+    #apply NodeProfile("", "Fibroadenoma")
   #end
 
   #// -----------------------------------------

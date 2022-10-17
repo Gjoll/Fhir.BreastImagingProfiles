@@ -1,9 +1,9 @@
 // $FIXME
-ValueSet:  AbnormalityAsymmetryTypeVS
-Title: "Asymmetry Type ValueSet"
+ValueSet:  AsymmetryAbnormalityTypeVS
+Title: "Asymmetry Abnormality Type ValueSet"
 Description:  "Asymmetry Type Value Set"
 * insert ValueSet_Common
-* codes from system AbnormalityAsymmetryTypeCS
+* codes from system AsymmetryAbnormalityTypeCS
   
   #// -----------------------------------------
   #// IG Macros
@@ -20,8 +20,8 @@ Description:  "Asymmetry Type Value Set"
   #end
 
 
-CodeSystem: AbnormalityAsymmetryTypeCS
-Title: "Asymmetry Type CodeSystem"
+CodeSystem: AsymmetryAbnormalityTypeCS
+Title: "Asymmetry Abnormality Type CodeSystem"
 Description: "Asymmetry type code system."
 * insert CodeSystem_Common
 

@@ -1,9 +1,9 @@
 // $FIXME
-ValueSet:  AbnormalityDensityTypeVS
-Title: "Density Type ValueSet"
+ValueSet:  DensityAbnormalityTypeVS
+Title: "Density Abnormality Type ValueSet"
 Description:  "Density Type Value Set"
 * insert ValueSet_Common
-* codes from system AbnormalityDensityTypeCS
+* codes from system DensityAbnormalityTypeCS
 
   #// -----------------------------------------
   #// IG Macros
@@ -21,8 +21,8 @@ Description:  "Density Type Value Set"
   #end
 
 
-CodeSystem: AbnormalityDensityTypeCS
-Title: "Density Type CodeSystem"
+CodeSystem: DensityAbnormalityTypeCS
+Title: "Density Abnormality Type CodeSystem"
 Description: "Density refinement types code system."
 * insert CodeSystem_Common
 
