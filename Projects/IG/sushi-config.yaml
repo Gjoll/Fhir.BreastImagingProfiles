@@ -172,7 +172,6 @@ groups:
       - ValueSet/BreastLandmarkVS   # ^ValueSet/BreastLandmarkVS$
       - ValueSet/CalcificationTypeVS   # ^ValueSet/CalcificationTypeVS$
       - ValueSet/CalcificationDistributionVS   # ^ValueSet/CalcificationDistributionVS$
-      - ValueSet/ClockPositionsVS   # ^ValueSet/ClockPositionsVS$
       - ValueSet/ConsistentWithQualifierVS   # ^ValueSet/ConsistentWithQualifierVS$
       - ValueSet/ConsistentWithVS   # ^ValueSet/ConsistentWithVS$
       - ValueSet/CorrespondsWithVS   # ^ValueSet/CorrespondsWithVS$
