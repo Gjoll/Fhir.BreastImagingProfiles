@@ -1,0 +1,6 @@
+#use Terminology
+  #apply RadToSnomedConceptMap("RDE1560_nipple", "nipple", "SCT#24142002", "Nipple structure (body structure)")
+  #apply RadToSnomedConceptMap("RDE1560_chestWall", "chestwall", "SCT#78904004", "Chest wall structure (body structure)")
+  #apply RadToSnomedConceptMap("RDE1560_skinStructure", "skinstructure", "SCT#39937001", "Skin structure (body structure)")
+#end
+

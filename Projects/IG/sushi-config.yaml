@@ -167,7 +167,6 @@ groups:
       - ValueSet/AsymmetryAbnormalityTypeVS   # ^ValueSet/AsymmetryAbnormalityTypeVS$
       - ValueSet/BreastAssessmentCategoryVS   # ^ValueSet/BreastAssessmentCategoryVS$
       - ValueSet/BreastImagingReportTypesVS   # ^ValueSet/BreastImagingReportTypesVS$
-      - ValueSet/BreastLandmarkVS   # ^ValueSet/BreastLandmarkVS$
       - ValueSet/CalcificationTypeVS   # ^ValueSet/CalcificationTypeVS$
       - ValueSet/CalcificationDistributionVS   # ^ValueSet/CalcificationDistributionVS$
       - ValueSet/ConsistentWithQualifierVS   # ^ValueSet/ConsistentWithQualifierVS$

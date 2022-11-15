@@ -150,3 +150,27 @@
 	     "SnoName" : "12 o'clock position (Qualifier Value)"
     }
   },
+  {
+    "RadToSnomed" : {
+      "RadCode" : "RDE1560_nipple",
+      "RadName" : "nipple",
+	     "SnoCode" : "SCT#24142002",
+	     "SnoName" : "Nipple structure (body structure)"
+    }
+  },
+  {
+    "RadToSnomed" : {
+      "RadCode" : "RDE1560_chestWall",
+      "RadName" : "chestwall",
+	     "SnoCode" : "SCT#78904004",
+	     "SnoName" : "Chest wall structure (body structure)"
+    }
+  },
+  {
+    "RadToSnomed" : {
+      "RadCode" : "RDE1560_skinStructure",
+      "RadName" : "skinstructure",
+	     "SnoCode" : "SCT#39937001",
+	     "SnoName" : "Skin structure (body structure)"
+    }
+  },

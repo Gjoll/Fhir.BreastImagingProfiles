@@ -36,7 +36,7 @@ Description: """
   # """)
 
 
-  #apply Extension.CodeableConcept("landmark", "Landmark", "0..*", "BreastLandmarkVS", "Body landmark. Origin of distance measurement.",
+  #apply Extension.CodeableConcept("landmark", "Landmark", "0..*", "RDE1560_BreastBodyLandmark", "Body landmark. Origin of distance measurement.",
   #  """
   #  Body landmark which defines the origin of the measurement.
   #  """)
