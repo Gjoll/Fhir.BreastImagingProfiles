@@ -167,6 +167,7 @@ groups:
     resources:
       - ValueSet/AssociatedFeatureVS   # ^ValueSet/AssociatedFeatureVS$
       - ValueSet/AsymmetryAbnormalityTypeVS   # ^ValueSet/AsymmetryAbnormalityTypeVS$
+      - ValueSet/BreastAssessmentCategoryVS   # ^ValueSet/BreastAssessmentCategoryVS$
       - ValueSet/BreastBodyLocationDepthVS   # ^ValueSet/BreastBodyLocationDepthVS$
       - ValueSet/BreastBodyLocationRegionVS   # ^ValueSet/BreastBodyLocationRegionVS$
       - ValueSet/BreastImagingReportTypesVS   # ^ValueSet/BreastImagingReportTypesVS$
@@ -184,7 +185,6 @@ groups:
       - ValueSet/ForeignObjectAbnormalityTypeVS   # ^ValueSet/ForeignObjectAbnormalityTypeVS$
       - ValueSet/LateralityVS   # ^ValueSet/LateralityVS$
       - ValueSet/LymphNodeAbnormalityTypeVS   # ^ValueSet/LymphNodeAbnormalityTypeVS$
-      - ValueSet/MammographyAssessmentFindingVS   # ^ValueSet/MammographyAssessmentFindingVS$
       - ValueSet/MassAbnormalityTypeVS   # ^ValueSet/MassAbnormalityTypeVS$
       - ValueSet/NotPreviouslySeenVS   # ^ValueSet/NotPreviouslySeenVS$
       - ValueSet/ObservedChangesVS   # ^ValueSet/ObservedChangesVS$
