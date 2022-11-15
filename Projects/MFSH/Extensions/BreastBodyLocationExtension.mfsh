@@ -20,7 +20,7 @@ Description: """
   #  The quadrant of the breast location.
   #  """)
 
-  #apply Extension.CodeableConcept("region", "Region", "0..1", "BreastBodyLocationRegionVS", "Region of the body location",
+  #apply Extension.CodeableConcept("region", "Region", "0..1", "RDE1564_RegionOfBreast", "Region of the body location",
   #  """
   #  The region  of the body location.
   #  """)
