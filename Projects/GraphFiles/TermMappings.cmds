@@ -1,0 +1,24 @@
+{
+    "RadToSnomed" : {
+      "RadCode" : "RDE1557_right",
+      "RadName" : "right",
+	     "SnoCode" : "361716006",
+	     "SnoName" : "Entire left breast (body structure)"
+    }
+  },
+  {
+    "RadToSnomed" : {
+      "RadCode" : "RDE1557_left",
+      "RadName" : "left",
+	     "SnoCode" : "361715005",
+	     "SnoName" : "Entire right breast (body structure)"
+    }
+  },
+  {
+    "RadToSnomed" : {
+      "RadCode" : "RDE1557_bilateral",
+      "RadName" : "bilateral",
+	     "SnoCode" : "63762007",
+	     "SnoName" : "Both breasts (body structure)"
+    }
+  },

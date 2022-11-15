@@ -27,3 +27,14 @@ RuleSet: ACRCodeSystemCommon
     This value set includes content from ACR RadElement, 
     which is Copyright© 2022, Radiological Society of North America. ALL RIGHTS RESERVED. 
 	"""
+
+#macro Terminology.RadToSnomedConceptMap(%RadCode%, %RadName%, %SnoCode%, %SnoName% ) > "%GraphDir%\\TermMappings.cmds"
+  `  {
+  `    "RadToSnomed" : {
+  `      "RadCode" : "%RadCode%",
+  `      "RadName" : "%RadName%",
+  `	     "SnoCode" : "%SnoCode%",
+  `	     "SnoName" : "%SnoName%"
+  `    }
+  `  },
+#end
