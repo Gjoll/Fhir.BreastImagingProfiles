@@ -30,7 +30,7 @@ Description: """
   #  The clock direction of the body location.
   # """)
 
-  #apply Extension.CodeableConcept("depth", "Depth", "0..1", "BreastBodyLocationDepthVS", "Depth of the body location",
+  #apply Extension.CodeableConcept("depth", "Depth", "0..1", "RDE1559_BreastBodyLocationDepth", "Depth of the body location",
   #  """
   #  The depth of the body location.
   # """)
