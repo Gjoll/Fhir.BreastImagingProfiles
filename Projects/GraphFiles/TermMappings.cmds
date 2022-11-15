@@ -22,3 +22,35 @@
 	     "SnoName" : "Both breasts (body structure)"
     }
   },
+  {
+    "RadToSnomed" : {
+      "RadCode" : "RDE1563_lowerInner",
+      "RadName" : "lowerinner",
+	     "SnoCode" : "SCT#19100000",
+	     "SnoName" : "Structure of lower inner quadrant of breast (body structure)"
+    }
+  },
+  {
+    "RadToSnomed" : {
+      "RadCode" : "RDE1563_lowerOuter",
+      "RadName" : "lowerouter",
+	     "SnoCode" : "SCT#33564002",
+	     "SnoName" : "Structure of lower outer quadrant of breast (body structure)"
+    }
+  },
+  {
+    "RadToSnomed" : {
+      "RadCode" : "RDE1563_upperInner",
+      "RadName" : "upperinner",
+	     "SnoCode" : "SCT#77831004",
+	     "SnoName" : "Structure of upper inner quadrant of breast (body structure)"
+    }
+  },
+  {
+    "RadToSnomed" : {
+      "RadCode" : "RDE1563_upperOuter",
+      "RadName" : "upperouter",
+	     "SnoCode" : "SCT#76365002",
+	     "SnoName" : "Structure of upper outer quadrant of breast (body structure)"
+    }
+  },

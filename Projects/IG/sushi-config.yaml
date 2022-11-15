@@ -171,7 +171,6 @@ groups:
       - ValueSet/BreastBodyLocationDepthVS   # ^ValueSet/BreastBodyLocationDepthVS$
       - ValueSet/BreastBodyLocationRegionVS   # ^ValueSet/BreastBodyLocationRegionVS$
       - ValueSet/BreastImagingReportTypesVS   # ^ValueSet/BreastImagingReportTypesVS$
-      - ValueSet/BreastQuadrantVS   # ^ValueSet/BreastQuadrantVS$
       - ValueSet/BreastLandmarkVS   # ^ValueSet/BreastLandmarkVS$
       - ValueSet/CalcificationTypeVS   # ^ValueSet/CalcificationTypeVS$
       - ValueSet/CalcificationDistributionVS   # ^ValueSet/CalcificationDistributionVS$
