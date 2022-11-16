@@ -173,7 +173,6 @@ groups:
       - ValueSet/DuctAbnormalityTypeVS   # ^ValueSet/DuctAbnormalityTypeVS$
       - ValueSet/FibroAdenomaAbnormalityTypeVS   # ^ValueSet/FibroAdenomaAbnormalityTypeVS$
       - ValueSet/ForeignObjectAbnormalityTypeVS   # ^ValueSet/ForeignObjectAbnormalityTypeVS$
-      - ValueSet/LateralityVS   # ^ValueSet/LateralityVS$
       - ValueSet/LymphNodeAbnormalityTypeVS   # ^ValueSet/LymphNodeAbnormalityTypeVS$
       - ValueSet/MassAbnormalityTypeVS   # ^ValueSet/MassAbnormalityTypeVS$
       - ValueSet/NotPreviouslySeenVS   # ^ValueSet/NotPreviouslySeenVS$
