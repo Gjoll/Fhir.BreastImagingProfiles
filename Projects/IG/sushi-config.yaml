@@ -156,7 +156,6 @@ groups:
       - CodeSystem/MassAbnormalityTypeCS   # ^CodeSystem/MassAbnormalityTypeCS$
       - CodeSystem/ObservationCodesCS   # ^CodeSystem/ObservationCodesCS$
       - CodeSystem/ObservedChangesCS   # ^CodeSystem/ObservedChangesCS$
-      - CodeSystem/OrientationCS   # ^CodeSystem/OrientationCS$
       - CodeSystem/ServiceRecommendationsCS   # ^CodeSystem/ServiceRecommendationsCS$
   CommonCodesVS:
     name: Common ValueSets
@@ -179,7 +178,6 @@ groups:
       - ValueSet/MassAbnormalityTypeVS   # ^ValueSet/MassAbnormalityTypeVS$
       - ValueSet/NotPreviouslySeenVS   # ^ValueSet/NotPreviouslySeenVS$
       - ValueSet/ObservedChangesVS   # ^ValueSet/ObservedChangesVS$
-      - ValueSet/OrientationVS   # ^ValueSet/OrientationVS$
       - ValueSet/PreviouslyDemonstratedByVS   # ^ValueSet/PreviouslyDemonstratedByVS$
       - ValueSet/rde1557-body-side   # ^ValueSet/rde1557-body-side$
       - ValueSet/rde1558-breast-body-location-clock-position   # ^ValueSet/rde1558-breast-body-location-clock-position$
@@ -202,5 +200,4 @@ groups:
       - ValueSet/rde1589-implants   # ^ValueSet/rde1589-implants$
       - ValueSet/rde1590-mastectomy   # ^ValueSet/rde1590-mastectomy$
       - ValueSet/ServiceRecommendationsVS   # ^ValueSet/ServiceRecommendationsVS$
-      - ValueSet/ShapeVS   # ^ValueSet/ShapeVS$
 #ISBuilderGroups End

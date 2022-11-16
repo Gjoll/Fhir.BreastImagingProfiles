@@ -174,3 +174,35 @@
 	     "SnoName" : "Skin structure (body structure)"
     }
   },
+  {
+    "RadToSnomed" : {
+      "RadCode" : "RDE1576_irregularShaped",
+      "RadName" : "irregularshaped",
+	     "SnoCode" : "SCT#129736006",
+	     "SnoName" : "Irregular shaped lesion"
+    }
+  },
+  {
+    "RadToSnomed" : {
+      "RadCode" : "RDE1576_lobularShaped",
+      "RadName" : "lobularshaped",
+	     "SnoCode" : "SCT#129735005",
+	     "SnoName" : "Lobular shaped lesion"
+    }
+  },
+  {
+    "RadToSnomed" : {
+      "RadCode" : "RDE1576_ovalShaped",
+      "RadName" : "ovalshaped",
+	     "SnoCode" : "SCT#129734009",
+	     "SnoName" : "Oval shaped lesion"
+    }
+  },
+  {
+    "RadToSnomed" : {
+      "RadCode" : "RDE1576_roundShaped",
+      "RadName" : "roundshaped",
+	     "SnoCode" : "SCT#129733003",
+	     "SnoName" : "Round shaped lesion"
+    }
+  },

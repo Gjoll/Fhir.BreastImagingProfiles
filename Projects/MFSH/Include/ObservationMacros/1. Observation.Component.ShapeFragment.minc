@@ -15,7 +15,7 @@
   #apply Observation.Component.Add("shape", "0..1", "Shape", "Shape",
   #  """
   #  This slice contains the optional component that define the shape of the abnormality.
-  #  The value of this component is a codeable concept chosen from the ShapeVS valueset.
+  #  The value of this component is a codeable concept chosen from the ACR RDE1576 Shape valueset.
   #  """,
   #  "RadLexCDE#RDE1576")
   #
