@@ -13,7 +13,7 @@ Description: """
   #  The value of this component is a codeable concept chosen from the rde1575-cyst valueset.
   #  """,
   #  "RadLexCDE#RDE1575")
-  #apply Observation.Component.SetConcept("cystPresence", "1..1", "rde1575-cyst")
+  #apply Observation.Component.SetConcept("cystPresence", "1..1", "rde1575-cyst-presence")
 
   #apply Observation.Component.Add("cystType", "0..1", "Cyst Type", "Cyst Type",
   #  """

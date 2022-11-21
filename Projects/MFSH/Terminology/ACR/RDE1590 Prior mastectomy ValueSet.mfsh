@@ -1,13 +1,13 @@
-ValueSet: RDE1575_Cyst
-Id: rde1575-cyst
-Title: "RDE1575 Cyst"
+ValueSet: RDE1590_PriorMastectomy
+Id: rde1590-prior-mastectomy
+Title: "RDE1590 Prior mastectomy"
 Description: """
-    Cystabnormalityobservationonmammography
+    ACR Common Data Element (CDE) {element.Id} value set"
     """
-* ^date = 2022-10-27
+* ^date = 2022-11-16
 * ^status = #draft
 * insert ACRValueSetCommon
-* include codes from system RadLexCDE where concept is-a #RDE1575
+* include codes from system RadLexCDE where concept is-a #RDE1590
 
 
 

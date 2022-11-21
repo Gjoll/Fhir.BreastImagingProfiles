@@ -21,9 +21,9 @@ Description: """
   #  component is a codeable concept chosen from the 
   #  ACR RDE1571 Associated Feature valueset.",
   #  """,
-  #   "RadLexCDE#RDE1571")
+  #  "RadLexCDE#RDE1571")
   
-  #apply Observation.Component.SetConcept("featureType", "1..1", "rde1571-associated-feature")
+  #apply Observation.Component.SetConcept("featureType", "1..1", "RDE1571_AssociatedFeatures")
 
 
   #apply Observation.LeafFragment()

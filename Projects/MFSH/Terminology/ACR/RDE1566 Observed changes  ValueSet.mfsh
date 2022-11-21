@@ -1,13 +1,13 @@
-ValueSet: RDE1590_Mastectomy
-Id: rde1590-mastectomy
-Title: "RDE1590 Mastectomy"
+ValueSet: RDE1566_ObservedChanges
+Id: rde1566-observed-changes
+Title: "RDE1566 Observed changes "
 Description: """
     ACR Common Data Element (CDE) {element.Id} value set"
     """
-* ^date = 2022-11-11
+* ^date = 2022-10-18
 * ^status = #draft
 * insert ACRValueSetCommon
-* include codes from system RadLexCDE where concept is-a #RDE1590
+* include codes from system RadLexCDE where concept is-a #RDE1566
 
 
 
