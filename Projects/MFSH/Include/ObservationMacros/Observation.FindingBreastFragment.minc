@@ -12,8 +12,8 @@ Description: """
 
 * value[x] 0..0
 
-  #apply Observation.Hasmember.BiRadAssessmentCategoryFragment()
-* hasMember[biRadAssessmentCategory] ^definition = """
+  #apply Observation.Component.BreastAssessmentCategoryFragment()
+* component[breastAssessmentCategory] ^definition = """
    Composite BiRad value for %Laterality% Breast.
    Typically this is the most severe of all the BiRad 
    codes set in any of the child observations of the %Laterality% Breast.
