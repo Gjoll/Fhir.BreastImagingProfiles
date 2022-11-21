@@ -143,7 +143,6 @@ groups:
     description: This section contains code systems that are defined in this Breast Imaging Implementation Guide.
     resources:
       - CodeSystem/AsymmetryAbnormalityTypeCS   # ^CodeSystem/AsymmetryAbnormalityTypeCS$
-      - CodeSystem/CalcificationTypeCS   # ^CodeSystem/CalcificationTypeCS$
       - CodeSystem/ObservationComponentSliceCodesCS   # ^CodeSystem/ObservationComponentSliceCodesCS$
       - CodeSystem/CompositionSectionSliceCodesCS   # ^CodeSystem/CompositionSectionSliceCodesCS$
       - CodeSystem/ConsistentWithQualifierCS   # ^CodeSystem/ConsistentWithQualifierCS$
@@ -164,7 +163,6 @@ groups:
       - ValueSet/AsymmetryAbnormalityTypeVS   # ^ValueSet/AsymmetryAbnormalityTypeVS$
       - ValueSet/BreastAssessmentCategoryVS   # ^ValueSet/BreastAssessmentCategoryVS$
       - ValueSet/BreastImagingReportTypesVS   # ^ValueSet/BreastImagingReportTypesVS$
-      - ValueSet/CalcificationTypeVS   # ^ValueSet/CalcificationTypeVS$
       - ValueSet/CalcificationDistributionVS   # ^ValueSet/CalcificationDistributionVS$
       - ValueSet/ConsistentWithQualifierVS   # ^ValueSet/ConsistentWithQualifierVS$
       - ValueSet/ConsistentWithVS   # ^ValueSet/ConsistentWithVS$
