@@ -89,7 +89,6 @@ groups:
       - StructureDefinition/ArchitecturalDistortionAbnormality   # ^StructureDefinition/ArchitecturalDistortionAbnormality$
       - StructureDefinition/AssociatedFeature   # ^StructureDefinition/AssociatedFeature$
       - StructureDefinition/AsymmetryAbnormality   # ^StructureDefinition/AsymmetryAbnormality$
-      - StructureDefinition/BreastAssessmentCategory   # ^StructureDefinition/BreastAssessmentCategory$
       - StructureDefinition/BreastComposition   # ^StructureDefinition/BreastComposition$
       - StructureDefinition/BreastMedicationRequest   # ^StructureDefinition/BreastMedicationRequest$
       - StructureDefinition/BreastServiceRequest   # ^StructureDefinition/BreastServiceRequest$

@@ -20,9 +20,9 @@ Description: """
     """
 
 
-  #apply Observation.HasMember.BiRadBreastCompositionFragment()
-* hasMember[biRadsBreastComposition] ^definition = """
-   BiRad Breast Composition value for %Laterality% Breast.
+  #apply Observation.Component.BreastCompositionCategoryFragment()
+* component[breastComposition] ^definition = """
+   Breast Composition value for %Laterality% Breast.
    """
 
   
