@@ -153,7 +153,6 @@ groups:
       - CodeSystem/LymphNodeAbnormalityTypeCS   # ^CodeSystem/LymphNodeAbnormalityTypeCS$
       - CodeSystem/MassAbnormalityTypeCS   # ^CodeSystem/MassAbnormalityTypeCS$
       - CodeSystem/ObservationCodesCS   # ^CodeSystem/ObservationCodesCS$
-      - CodeSystem/ObservedChangesCS   # ^CodeSystem/ObservedChangesCS$
       - CodeSystem/ServiceRecommendationsCS   # ^CodeSystem/ServiceRecommendationsCS$
   CommonCodesVS:
     name: Common ValueSets
@@ -173,7 +172,6 @@ groups:
       - ValueSet/LymphNodeAbnormalityTypeVS   # ^ValueSet/LymphNodeAbnormalityTypeVS$
       - ValueSet/MassAbnormalityTypeVS   # ^ValueSet/MassAbnormalityTypeVS$
       - ValueSet/NotPreviouslySeenVS   # ^ValueSet/NotPreviouslySeenVS$
-      - ValueSet/ObservedChangesVS   # ^ValueSet/ObservedChangesVS$
       - ValueSet/PreviouslyDemonstratedByVS   # ^ValueSet/PreviouslyDemonstratedByVS$
       - ValueSet/rde1556-calcification-presence   # ^ValueSet/rde1556-calcification-presence$
       - ValueSet/rde1557-body-side   # ^ValueSet/rde1557-body-side$
