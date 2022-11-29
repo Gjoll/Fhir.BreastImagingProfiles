@@ -89,7 +89,6 @@ groups:
       - StructureDefinition/ArchitecturalDistortionAbnormality   # ^StructureDefinition/ArchitecturalDistortionAbnormality$
       - StructureDefinition/AssociatedFeature   # ^StructureDefinition/AssociatedFeature$
       - StructureDefinition/AsymmetryAbnormality   # ^StructureDefinition/AsymmetryAbnormality$
-      - StructureDefinition/BreastAssessmentCategory   # ^StructureDefinition/BreastAssessmentCategory$
       - StructureDefinition/BreastComposition   # ^StructureDefinition/BreastComposition$
       - StructureDefinition/BreastMedicationRequest   # ^StructureDefinition/BreastMedicationRequest$
       - StructureDefinition/BreastServiceRequest   # ^StructureDefinition/BreastServiceRequest$
@@ -142,64 +141,60 @@ groups:
     name: Common CodeSystems
     description: This section contains code systems that are defined in this Breast Imaging Implementation Guide.
     resources:
-      - CodeSystem/AssociatedFeatureCS   # ^CodeSystem/AssociatedFeatureCS$
       - CodeSystem/AsymmetryAbnormalityTypeCS   # ^CodeSystem/AsymmetryAbnormalityTypeCS$
-      - CodeSystem/BreastBodyLocationDepthCS   # ^CodeSystem/BreastBodyLocationDepthCS$
-      - CodeSystem/BreastBodyLocationRegionCS   # ^CodeSystem/BreastBodyLocationRegionCS$
-      - CodeSystem/BreastCompositionCS   # ^CodeSystem/BreastCompositionCS$
-      - CodeSystem/CalcificationTypeCS   # ^CodeSystem/CalcificationTypeCS$
       - CodeSystem/ObservationComponentSliceCodesCS   # ^CodeSystem/ObservationComponentSliceCodesCS$
       - CodeSystem/CompositionSectionSliceCodesCS   # ^CodeSystem/CompositionSectionSliceCodesCS$
       - CodeSystem/ConsistentWithQualifierCS   # ^CodeSystem/ConsistentWithQualifierCS$
       - CodeSystem/CorrespondsWithCS   # ^CodeSystem/CorrespondsWithCS$
-      - CodeSystem/CystAbnormalityTypeCS   # ^CodeSystem/CystAbnormalityTypeCS$
       - CodeSystem/DensityAbnormalityTypeCS   # ^CodeSystem/DensityAbnormalityTypeCS$
       - CodeSystem/DuctAbnormalityTypeCS   # ^CodeSystem/DuctAbnormalityTypeCS$
       - CodeSystem/AbnormalityFibroadenomaTypeCS   # ^CodeSystem/AbnormalityFibroadenomaTypeCS$
       - CodeSystem/ForeignObjectAbnormalityTypeCS   # ^CodeSystem/ForeignObjectAbnormalityTypeCS$
-      - CodeSystem/LesionDensityCS   # ^CodeSystem/LesionDensityCS$
       - CodeSystem/LymphNodeAbnormalityTypeCS   # ^CodeSystem/LymphNodeAbnormalityTypeCS$
-      - CodeSystem/MarginCS   # ^CodeSystem/MarginCS$
       - CodeSystem/MassAbnormalityTypeCS   # ^CodeSystem/MassAbnormalityTypeCS$
       - CodeSystem/ObservationCodesCS   # ^CodeSystem/ObservationCodesCS$
-      - CodeSystem/ObservedChangesCS   # ^CodeSystem/ObservedChangesCS$
-      - CodeSystem/OrientationCS   # ^CodeSystem/OrientationCS$
       - CodeSystem/ServiceRecommendationsCS   # ^CodeSystem/ServiceRecommendationsCS$
   CommonCodesVS:
     name: Common ValueSets
     description: This section contains value sets that are defined in this Breast Imaging Implementation Guide.
     resources:
-      - ValueSet/AssociatedFeatureVS   # ^ValueSet/AssociatedFeatureVS$
       - ValueSet/AsymmetryAbnormalityTypeVS   # ^ValueSet/AsymmetryAbnormalityTypeVS$
       - ValueSet/BreastAssessmentCategoryVS   # ^ValueSet/BreastAssessmentCategoryVS$
-      - ValueSet/BreastBodyLocationDepthVS   # ^ValueSet/BreastBodyLocationDepthVS$
-      - ValueSet/BreastBodyLocationRegionVS   # ^ValueSet/BreastBodyLocationRegionVS$
-      - ValueSet/BreastCompositionVS   # ^ValueSet/BreastCompositionVS$
       - ValueSet/BreastImagingReportTypesVS   # ^ValueSet/BreastImagingReportTypesVS$
-      - ValueSet/BreastLateralityVS   # ^ValueSet/BreastLateralityVS$
-      - ValueSet/BreastQuadrantVS   # ^ValueSet/BreastQuadrantVS$
-      - ValueSet/BreastLandmarkVS   # ^ValueSet/BreastLandmarkVS$
-      - ValueSet/CalcificationTypeVS   # ^ValueSet/CalcificationTypeVS$
       - ValueSet/CalcificationDistributionVS   # ^ValueSet/CalcificationDistributionVS$
-      - ValueSet/ClockPositionsVS   # ^ValueSet/ClockPositionsVS$
       - ValueSet/ConsistentWithQualifierVS   # ^ValueSet/ConsistentWithQualifierVS$
       - ValueSet/ConsistentWithVS   # ^ValueSet/ConsistentWithVS$
       - ValueSet/CorrespondsWithVS   # ^ValueSet/CorrespondsWithVS$
-      - ValueSet/CystAbnormalityTypeVS   # ^ValueSet/CystAbnormalityTypeVS$
       - ValueSet/DensityAbnormalityTypeVS   # ^ValueSet/DensityAbnormalityTypeVS$
       - ValueSet/DuctAbnormalityTypeVS   # ^ValueSet/DuctAbnormalityTypeVS$
       - ValueSet/FibroAdenomaAbnormalityTypeVS   # ^ValueSet/FibroAdenomaAbnormalityTypeVS$
       - ValueSet/ForeignObjectAbnormalityTypeVS   # ^ValueSet/ForeignObjectAbnormalityTypeVS$
-      - ValueSet/LateralityVS   # ^ValueSet/LateralityVS$
-      - ValueSet/LesionDensityVS   # ^ValueSet/LesionDensityVS$
       - ValueSet/LymphNodeAbnormalityTypeVS   # ^ValueSet/LymphNodeAbnormalityTypeVS$
-      - ValueSet/MammographyAssessmentFindingVS   # ^ValueSet/MammographyAssessmentFindingVS$
-      - ValueSet/MarginVS   # ^ValueSet/MarginVS$
       - ValueSet/MassAbnormalityTypeVS   # ^ValueSet/MassAbnormalityTypeVS$
       - ValueSet/NotPreviouslySeenVS   # ^ValueSet/NotPreviouslySeenVS$
-      - ValueSet/ObservedChangesVS   # ^ValueSet/ObservedChangesVS$
-      - ValueSet/OrientationVS   # ^ValueSet/OrientationVS$
       - ValueSet/PreviouslyDemonstratedByVS   # ^ValueSet/PreviouslyDemonstratedByVS$
+      - ValueSet/rde1556-calcification-presence   # ^ValueSet/rde1556-calcification-presence$
+      - ValueSet/rde1557-body-side   # ^ValueSet/rde1557-body-side$
+      - ValueSet/rde1558-breast-body-location-clock-position   # ^ValueSet/rde1558-breast-body-location-clock-position$
+      - ValueSet/rde1559-breast-body-location-depth   # ^ValueSet/rde1559-breast-body-location-depth$
+      - ValueSet/rde1560-breast-body-landmark   # ^ValueSet/rde1560-breast-body-landmark$
+      - ValueSet/rde1562-laterality-from-landmark   # ^ValueSet/rde1562-laterality-from-landmark$
+      - ValueSet/rde1563-quadrant-of-breast   # ^ValueSet/rde1563-quadrant-of-breast$
+      - ValueSet/rde1564-region-of-breast   # ^ValueSet/rde1564-region-of-breast$
+      - ValueSet/rde1565-type   # ^ValueSet/rde1565-type$
+      - ValueSet/rde1566-observed-changes   # ^ValueSet/rde1566-observed-changes$
+      - ValueSet/rde1568-observed-distribution   # ^ValueSet/rde1568-observed-distribution$
+      - ValueSet/rde1571-associated-features   # ^ValueSet/rde1571-associated-features$
+      - ValueSet/rde1575-cyst-presence   # ^ValueSet/rde1575-cyst-presence$
+      - ValueSet/rde1576-shape   # ^ValueSet/rde1576-shape$
+      - ValueSet/rde1577-type   # ^ValueSet/rde1577-type$
+      - ValueSet/rde1578-density   # ^ValueSet/rde1578-density$
+      - ValueSet/rde1579-margin   # ^ValueSet/rde1579-margin$
+      - ValueSet/rde1580-orientation   # ^ValueSet/rde1580-orientation$
+      - ValueSet/rde1586-assessment-category   # ^ValueSet/rde1586-assessment-category$
+      - ValueSet/rde1587-breast-composition-category   # ^ValueSet/rde1587-breast-composition-category$
+      - ValueSet/rde1588-breast-laterality   # ^ValueSet/rde1588-breast-laterality$
+      - ValueSet/rde1589-implant-presence   # ^ValueSet/rde1589-implant-presence$
+      - ValueSet/rde1590-prior-mastectomy   # ^ValueSet/rde1590-prior-mastectomy$
       - ValueSet/ServiceRecommendationsVS   # ^ValueSet/ServiceRecommendationsVS$
-      - ValueSet/ShapeVS   # ^ValueSet/ShapeVS$
 #ISBuilderGroups End

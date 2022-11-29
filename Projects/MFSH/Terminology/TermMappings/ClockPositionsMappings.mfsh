@@ -1,0 +1,14 @@
+#use Terminology
+  #apply RadToSnomedConceptMap("RDE1558_oneOclockPosition", "oneo'clockposition", "$SCT#260318004", "1 o'clock position (Qualifier Value)")
+  #apply RadToSnomedConceptMap("RDE1558_twoOclockPosition", "twoo'clockposition", "$SCT#260328008", "2 o'clock position (Qualifier Value)")
+  #apply RadToSnomedConceptMap("RDE1558_threeOclockPosition", "threeo'clockposition", "$SCT#260330005", "3 o'clock position (Qualifier Value)")
+  #apply RadToSnomedConceptMap("RDE1558_fourOclockPosition", "fouro'clockposition", "$SCT#260333007", "4 o'clock position (Qualifier Value)")
+  #apply RadToSnomedConceptMap("RDE1558_fiveOclockPosition", "fiveo'clockposition", "$SCT#260335000", "5 o'clock position (Qualifier Value)")
+  #apply RadToSnomedConceptMap("RDE1558_sixOclockPosition", "sixo'clockposition", "$SCT#260337008", "6 o'clock position (Qualifier Value)")
+  #apply RadToSnomedConceptMap("RDE1558_sevenOclockPosition", "seveno'clockposition", "$SCT#260339006", "7 o'clock position (Qualifier Value)")
+  #apply RadToSnomedConceptMap("RDE1558_eightOclockPosition", "eighto'clockposition", "$SCT#260341007", "8 o'clock position (Qualifier Value)")
+  #apply RadToSnomedConceptMap("RDE1558_nineOclockPosition", "nineo'clockposition", "$SCT#260343005", "9 o'clock position (Qualifier Value)")
+  #apply RadToSnomedConceptMap("RDE1558_tenOclockPosition", "teno'clockposition", "$SCT#260322009", "10 o'clock position (Qualifier Value)")
+  #apply RadToSnomedConceptMap("RDE1558_elevenOclockPosition", "eleveno'clockposition", "$SCT#260324005", "11 o'clock position (Qualifier Value)")
+  #apply RadToSnomedConceptMap("RDE1558_twelveOclockPosition", "twelveo'clockposition", "$SCT#260326007", "12 o'clock position (Qualifier Value)")
+#end

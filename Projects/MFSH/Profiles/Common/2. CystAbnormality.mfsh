@@ -5,23 +5,30 @@ Description: """
   Cyst abnormality observation.
   """
 
-  #apply Resource.Fix("1", "code", "ObservationCodesCS#abnormalityCyst", "Code")
+  #apply Resource.Fix("1", "code", "RadLexCDE#RDES243", "Code")
+
+  #apply Observation.Component.Add("cystPresence", "1..1", "Cyst Presence", "Cyst Presence",
+  #  """
+  #  This slice contains the required component that specifies the presence or absence of a cyst.
+  #  The value of this component is a codeable concept chosen from the rde1575-cyst valueset.
+  #  """,
+  #  "RadLexCDE#RDE1575")
+  #apply Observation.Component.SetConcept("cystPresence", "1..1", "rde1575-cyst-presence")
 
   #apply Observation.Component.Add("cystType", "0..1", "Cyst Type", "Cyst Type",
   #  """
-  #  This slice contains the optional component that refine the cyst type.
-  #  The value of this component is a codeable concept chosen from the CystAbnormalityTypeVS valueset.
+  #  This slice contains the optional component that refines the cyst type.
+  #  The value of this component is a codeable concept chosen from the rde1577-type valueset.
   #  """,
-  #  "ObservationComponentSliceCodesCS#abnormalityCystType")
-
-  #apply Observation.Component.SetConcept("cystType", "1..1", "CystAbnormalityTypeVS")
+  #  "RadLexCDE#RDE1577")
+  #apply Observation.Component.SetConcept("cystType", "1..1", "rde1577-type")
 
   #apply Observation.Device.Zero()
   #apply Observation.Value.Zero()
   #apply Observation.BreastBodyLocationRequiredFragment()
   
   #apply Observation.Component.ObservedChangesFragment()
-  #apply Observation.Hasmember.BiRadAssessmentCategoryFragment()
+  #apply Observation.Component.BreastAssessmentCategoryFragment()
   #apply Observation.Component.ShapeFragment()
   #apply Observation.Component.DensityFragment()
   #apply Observation.Component.MarginFragment()

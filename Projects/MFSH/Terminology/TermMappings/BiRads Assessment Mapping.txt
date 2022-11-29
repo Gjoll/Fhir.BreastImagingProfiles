@@ -1,0 +1,31 @@
+#use Terminology
+
+
+  #apply RadToSnomedConceptMap("RDE1586_category0IncompleteNeedAdditionalImaging", "category0needadditionalimaging", "SCT#397138000, "Mammography assessment (Category 0) - Need additional imaging evaluation (finding)")
+  #apply RadToSnomedConceptMap("RDE1586_category1Negative", "category1,negative", "Mammography assessment (Category 1) - Negative (finding)")
+  #apply RadToSnomedConceptMap("RDE1586_category2BenignFinding", "category2,benignfinding", "Mammography assessment (Category 2) - Benign finding (finding)")
+  #apply RadToSnomedConceptMap("RDE1586_category3ProbablyBenignFinding", "category3,probablybenignfinding", "Mammography assessment (Category 3) - Probably benign finding, short interval follow-up (finding)")
+  
+  # Note 4A, 4B, 4C all mapped to snomed 4.
+  #apply RadToSnomedConceptMap("RDE1586_category4SuspiciousAbnormality", "category4,suspiciousabnormality", "$SCT#397144001, "Mammography assessment (Category 4) - Suspicious abnormality, biopsy should be considered (finding)")
+  #apply RadToSnomedConceptMap("RDE1586_category4ASuspiciousAbnormalityLowLikelihoodOfBeingCancer", "category4A,suspiciousabnormalitylowlikelihoodofbeingcancer", "$SCT#397144001, "Mammography assessment (Category 4) - Suspicious abnormality, biopsy should be considered (finding)")
+  #apply RadToSnomedConceptMap("RDE1586_category4BSuspiciousAbnormalityModerateLikelihoodOfBeingCancer", "category 4B,suspiciousabnormality-moderatelikelihoodofbeingcancer", "$SCT#397144001, "Mammography assessment (Category 4) - Suspicious abnormality, biopsy should be considered (finding)")
+  #apply RadToSnomedConceptMap("RDE1586_category4CSuspiciousAbnormalityHighLikelihoodOfBeingCancer", "category4C,suspiciousabnormality-highlikelihoodofbeingcancer", "$SCT#397144001, "Mammography assessment (Category 4) - Suspicious abnormality, biopsy should be considered (finding)")
+  
+  #apply RadToSnomedConceptMap("RDE1586_category5HighlySuggestiveOfMalignancy", "category5,highlysuggestiveofmalignancy", "$SCT#397145000, "Mammography assessment (Category 5) - Highly suggestive of malignancy (finding)")
+  #apply RadToSnomedConceptMap("RDE1586_category6KnownBiopsyProvenMalignancy", "category6,knownbiopsy-provenmalignancy", "$SCT#6111000179101, "Mammography assessment (Category 6) - known biopsy, proven malignancy (finding)")
+#end
+
+
+
+
+
+
+
+
+
+
+
+
+
+

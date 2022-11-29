@@ -1,0 +1,208 @@
+{
+    "RadToSnomed" : {
+      "RadCode" : "RDE1557_right",
+      "RadName" : "right",
+	     "SnoCode" : "361716006",
+	     "SnoName" : "Entire left breast (body structure)"
+    }
+  },
+  {
+    "RadToSnomed" : {
+      "RadCode" : "RDE1557_left",
+      "RadName" : "left",
+	     "SnoCode" : "361715005",
+	     "SnoName" : "Entire right breast (body structure)"
+    }
+  },
+  {
+    "RadToSnomed" : {
+      "RadCode" : "RDE1557_bilateral",
+      "RadName" : "bilateral",
+	     "SnoCode" : "63762007",
+	     "SnoName" : "Both breasts (body structure)"
+    }
+  },
+  {
+    "RadToSnomed" : {
+      "RadCode" : "RDE1563_lowerInner",
+      "RadName" : "lowerinner",
+	     "SnoCode" : "SCT#19100000",
+	     "SnoName" : "Structure of lower inner quadrant of breast (body structure)"
+    }
+  },
+  {
+    "RadToSnomed" : {
+      "RadCode" : "RDE1563_lowerOuter",
+      "RadName" : "lowerouter",
+	     "SnoCode" : "SCT#33564002",
+	     "SnoName" : "Structure of lower outer quadrant of breast (body structure)"
+    }
+  },
+  {
+    "RadToSnomed" : {
+      "RadCode" : "RDE1563_upperInner",
+      "RadName" : "upperinner",
+	     "SnoCode" : "SCT#77831004",
+	     "SnoName" : "Structure of upper inner quadrant of breast (body structure)"
+    }
+  },
+  {
+    "RadToSnomed" : {
+      "RadCode" : "RDE1563_upperOuter",
+      "RadName" : "upperouter",
+	     "SnoCode" : "SCT#76365002",
+	     "SnoName" : "Structure of upper outer quadrant of breast (body structure)"
+    }
+  },
+  {
+    "RadToSnomed" : {
+      "RadCode" : "RDE1558_oneOclockPosition",
+      "RadName" : "oneo'clockposition",
+	     "SnoCode" : "$SCT#260318004",
+	     "SnoName" : "1 o'clock position (Qualifier Value)"
+    }
+  },
+  {
+    "RadToSnomed" : {
+      "RadCode" : "RDE1558_twoOclockPosition",
+      "RadName" : "twoo'clockposition",
+	     "SnoCode" : "$SCT#260328008",
+	     "SnoName" : "2 o'clock position (Qualifier Value)"
+    }
+  },
+  {
+    "RadToSnomed" : {
+      "RadCode" : "RDE1558_threeOclockPosition",
+      "RadName" : "threeo'clockposition",
+	     "SnoCode" : "$SCT#260330005",
+	     "SnoName" : "3 o'clock position (Qualifier Value)"
+    }
+  },
+  {
+    "RadToSnomed" : {
+      "RadCode" : "RDE1558_fourOclockPosition",
+      "RadName" : "fouro'clockposition",
+	     "SnoCode" : "$SCT#260333007",
+	     "SnoName" : "4 o'clock position (Qualifier Value)"
+    }
+  },
+  {
+    "RadToSnomed" : {
+      "RadCode" : "RDE1558_fiveOclockPosition",
+      "RadName" : "fiveo'clockposition",
+	     "SnoCode" : "$SCT#260335000",
+	     "SnoName" : "5 o'clock position (Qualifier Value)"
+    }
+  },
+  {
+    "RadToSnomed" : {
+      "RadCode" : "RDE1558_sixOclockPosition",
+      "RadName" : "sixo'clockposition",
+	     "SnoCode" : "$SCT#260337008",
+	     "SnoName" : "6 o'clock position (Qualifier Value)"
+    }
+  },
+  {
+    "RadToSnomed" : {
+      "RadCode" : "RDE1558_sevenOclockPosition",
+      "RadName" : "seveno'clockposition",
+	     "SnoCode" : "$SCT#260339006",
+	     "SnoName" : "7 o'clock position (Qualifier Value)"
+    }
+  },
+  {
+    "RadToSnomed" : {
+      "RadCode" : "RDE1558_eightOclockPosition",
+      "RadName" : "eighto'clockposition",
+	     "SnoCode" : "$SCT#260341007",
+	     "SnoName" : "8 o'clock position (Qualifier Value)"
+    }
+  },
+  {
+    "RadToSnomed" : {
+      "RadCode" : "RDE1558_nineOclockPosition",
+      "RadName" : "nineo'clockposition",
+	     "SnoCode" : "$SCT#260343005",
+	     "SnoName" : "9 o'clock position (Qualifier Value)"
+    }
+  },
+  {
+    "RadToSnomed" : {
+      "RadCode" : "RDE1558_tenOclockPosition",
+      "RadName" : "teno'clockposition",
+	     "SnoCode" : "$SCT#260322009",
+	     "SnoName" : "10 o'clock position (Qualifier Value)"
+    }
+  },
+  {
+    "RadToSnomed" : {
+      "RadCode" : "RDE1558_elevenOclockPosition",
+      "RadName" : "eleveno'clockposition",
+	     "SnoCode" : "$SCT#260324005",
+	     "SnoName" : "11 o'clock position (Qualifier Value)"
+    }
+  },
+  {
+    "RadToSnomed" : {
+      "RadCode" : "RDE1558_twelveOclockPosition",
+      "RadName" : "twelveo'clockposition",
+	     "SnoCode" : "$SCT#260326007",
+	     "SnoName" : "12 o'clock position (Qualifier Value)"
+    }
+  },
+  {
+    "RadToSnomed" : {
+      "RadCode" : "RDE1560_nipple",
+      "RadName" : "nipple",
+	     "SnoCode" : "SCT#24142002",
+	     "SnoName" : "Nipple structure (body structure)"
+    }
+  },
+  {
+    "RadToSnomed" : {
+      "RadCode" : "RDE1560_chestWall",
+      "RadName" : "chestwall",
+	     "SnoCode" : "SCT#78904004",
+	     "SnoName" : "Chest wall structure (body structure)"
+    }
+  },
+  {
+    "RadToSnomed" : {
+      "RadCode" : "RDE1560_skinStructure",
+      "RadName" : "skinstructure",
+	     "SnoCode" : "SCT#39937001",
+	     "SnoName" : "Skin structure (body structure)"
+    }
+  },
+  {
+    "RadToSnomed" : {
+      "RadCode" : "RDE1576_irregularShaped",
+      "RadName" : "irregularshaped",
+	     "SnoCode" : "SCT#129736006",
+	     "SnoName" : "Irregular shaped lesion"
+    }
+  },
+  {
+    "RadToSnomed" : {
+      "RadCode" : "RDE1576_lobularShaped",
+      "RadName" : "lobularshaped",
+	     "SnoCode" : "SCT#129735005",
+	     "SnoName" : "Lobular shaped lesion"
+    }
+  },
+  {
+    "RadToSnomed" : {
+      "RadCode" : "RDE1576_ovalShaped",
+      "RadName" : "ovalshaped",
+	     "SnoCode" : "SCT#129734009",
+	     "SnoName" : "Oval shaped lesion"
+    }
+  },
+  {
+    "RadToSnomed" : {
+      "RadCode" : "RDE1576_roundShaped",
+      "RadName" : "roundshaped",
+	     "SnoCode" : "SCT#129733003",
+	     "SnoName" : "Round shaped lesion"
+    }
+  },

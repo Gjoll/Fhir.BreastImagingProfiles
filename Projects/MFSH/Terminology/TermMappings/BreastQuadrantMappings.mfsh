@@ -1,0 +1,7 @@
+#use Terminology
+  #apply RadToSnomedConceptMap("RDE1563_lowerInner", "lowerinner", "SCT#19100000", "Structure of lower inner quadrant of breast (body structure)")
+  #apply RadToSnomedConceptMap("RDE1563_lowerOuter", "lowerouter", "SCT#33564002", "Structure of lower outer quadrant of breast (body structure)")
+  #apply RadToSnomedConceptMap("RDE1563_upperInner", "upperinner", "SCT#77831004", "Structure of upper inner quadrant of breast (body structure)")
+  #apply RadToSnomedConceptMap("RDE1563_upperOuter", "upperouter", "SCT#76365002", "Structure of upper outer quadrant of breast (body structure)") 
+#end
+

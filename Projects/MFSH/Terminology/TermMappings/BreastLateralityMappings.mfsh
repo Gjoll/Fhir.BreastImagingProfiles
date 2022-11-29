@@ -1,0 +1,5 @@
+#use Terminology
+  #apply RadToSnomedConceptMap("RDE1557_right", "right", "361716006", "Entire left breast (body structure)")
+  #apply RadToSnomedConceptMap("RDE1557_left", "left", "361715005", "Entire right breast (body structure)")
+  #apply RadToSnomedConceptMap("RDE1557_bilateral", "bilateral", "63762007", "Both breasts (body structure)")
+#end

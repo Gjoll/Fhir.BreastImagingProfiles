@@ -1,0 +1,6 @@
+#use Terminology
+  #apply RadToSnomedConceptMap("RDE1576_irregularShaped", "irregularshaped", "SCT#129736006", "Irregular shaped lesion")
+  #apply RadToSnomedConceptMap("RDE1576_lobularShaped", "lobularshaped", "SCT#129735005", "Lobular shaped lesion")
+  #apply RadToSnomedConceptMap("RDE1576_ovalShaped", "ovalshaped", "SCT#129734009", "Oval shaped lesion")
+  #apply RadToSnomedConceptMap("RDE1576_roundShaped", "roundshaped", "SCT#129733003", "Round shaped lesion")
+#end

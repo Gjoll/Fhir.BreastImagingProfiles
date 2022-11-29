@@ -3,19 +3,24 @@
  Fragment that adds 'BiRad RadAssessment Category code' element to profile
 */
  
-#Fragment: Observation.Hasmember.BiRadAssessmentCategoryFragment
+
+#Fragment: Observation.Component.BreastAssessmentCategoryFragment
 #Parent: us-core-observation-imaging
 #Title: "BiRad Fragment"
 #Description: """
-# Fragment that adds 'BiRad Assessment Category code' element to profile
+# Fragment that adds 'Breast Assessment Category code' element to profile
+# The breast assessment category code is either a BiRads code or a code indicating a marker placement.
 # """
-  #apply Observation.HasMember.Add("biRadAssessmentCategory", "0..1", "BreastAssessmentCategory", "BiRads Assessment Category Code Code",
+  #apply Observation.Component.Add("breastAssessmentCategory", "0..*", "Breast Assessment Category", "Breast  Assessment Category Code",
   #  """
-  #  BiRads Assessment Category component.
-  #  """)
+  #  This slice contains the optional components that define the breast assessment category.
+  #  The value of this component is a codeable concept chosen from the BreastAssessmentCategoryVS valueset.
+  #  """,
+  #  "RadLexCDE#RDE1586")
   #
+  #apply Observation.Component.SetConcept("breastAssessmentCategory", "1..1", "BreastAssessmentCategoryVS")
 
-  #if Frags
+    #if Frags
     #// -----------------------------------------
     #// Graph Macros
     #// -----------------------------------------
@@ -36,12 +41,12 @@
       #apply once GroupMemberFragment("Fragments", "%FTitle%")
     #end
   #end
-  
+
   #// -----------------------------------------
   #// Code API Macros
   #// -----------------------------------------
   #use ApiBuild
-    #apply once DefineFragment("Observation.HasMember.Fragment", "%HasMemberSliceName%")
+    #apply once DefineFragment("Observation.Components.Fragment", "component:%ComponentSliceName%")
     #apply ImplementFragment()
   #end
 #end
