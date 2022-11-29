@@ -153,6 +153,7 @@ groups:
       - CodeSystem/LymphNodeAbnormalityTypeCS   # ^CodeSystem/LymphNodeAbnormalityTypeCS$
       - CodeSystem/MassAbnormalityTypeCS   # ^CodeSystem/MassAbnormalityTypeCS$
       - CodeSystem/ObservationCodesCS   # ^CodeSystem/ObservationCodesCS$
+      - CodeSystem/RadLexCDE   # ^CodeSystem/RadLexCDE$
       - CodeSystem/ServiceRecommendationsCS   # ^CodeSystem/ServiceRecommendationsCS$
   CommonCodesVS:
     name: Common ValueSets

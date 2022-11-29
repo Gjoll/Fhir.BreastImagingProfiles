@@ -1001,3 +1001,19 @@ Description: "ACR Common Data Element (CDE) code system"
     RDE1590_none
     """
 
+
+
+
+  #// -----------------------------------------
+  #// IG Macros
+  #// -----------------------------------------
+  #use IG
+    #apply GroupMemberCodeSystem("CommonCodesCS", "%Id%")
+  #end
+
+  #// -----------------------------------------
+  #// CodeSystem API Macros
+  #// -----------------------------------------
+  #use ApiBuild
+    #apply DefineCodeSystem()
+  #end
