@@ -10,11 +10,11 @@
   #apply Observation.Component.Add("obsChanges", "0..*", "Observed Changes", "Observed Change In Abnormality",
   #  """
   #  This slice contains the optional components that define observed changes in this abnormality.
-  #  The value of this component is a codeable concept chosen from the RDE1566_ObservedChanges valueset.
+  #  The value of this component is a codeable concept chosen from the ObservedChangesVS valueset.
   #  """,
-  #  "RadLexCDE#RDE1566")
+  #  "ObservationComponentSliceCodesCS#obsChanges")
   #
-  #apply Observation.Component.SetConcept("obsChanges", "1..1", "rde1566-observed-changes")
+  #apply Observation.Component.SetConcept("obsChanges", "1..1", "ObservedChangesVS")
 
   #if Frags
     #// -----------------------------------------

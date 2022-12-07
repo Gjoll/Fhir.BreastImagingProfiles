@@ -75,6 +75,11 @@ Description: "Component Slice Codes code system"
     """
 
 
+* #obsChanges "Component code for 'Observed Changes' slice"
+    """
+    Code to identify the component slice Observed Changes.
+    """
+	
 * #featureType "Component code for 'Feature Type' slice"
     """
     Code to identify the component slice ObservedFeatureType.
