@@ -1,13 +1,13 @@
-ValueSet: RDE1575_CystPresence
-Id: rde1575-cyst-presence
-Title: "RDE1575 Cyst presence"
+ValueSet: RDE1568_Distribution
+Id: rde1568-distribution
+Title: "RDE1568 Distribution"
 Description: """
-    Cystabnormalityobservationonmammography
+    ACR Common Data Element (CDE) {element.Id} value set"
     """
-* ^date = 2022-11-16
+* ^date = 2022-12-02
 * ^status = #draft
 * insert ACRValueSetCommon
-* include codes from system RadLexCDE where concept is-a #RDE1575
+* include codes from system RadLexCDE where concept is-a #RDE1568
 
 
 

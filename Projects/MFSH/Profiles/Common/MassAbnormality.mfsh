@@ -5,16 +5,23 @@ Description: """
   Mass Abnormality abnormality observation.
   """
 
-  #apply Resource.Fix("1", "code", "ObservationCodesCS#abnormalityMassObservation", "Code")
+  #apply Resource.Fix("1", "code", "RadLexCDE#RDES246", "Code")
 
-  #apply Observation.Component.Add("massType", "1..1", "Mass Abnormality Type", "Mass Abnormality Type",
+  #apply Observation.Component.Add("breastMassPresence", "1..1", "Breast Mass Presence", "Breast Mass Presence",
+  #  """
+  #  This slice contains the required component that specifies the presence or absence of a cyst.
+  #  The value of this component is a codeable concept chosen from the rde1556-presence valueset.
+  #  """,
+  #  "RadLexCDE#RDE1556")
+  #apply Observation.Component.SetConcept("breastMassPresence", "1..1", "rde1556-presence")
+
+  #apply Observation.Component.Add("breastMassType", "1..1", "Mass Abnormality Type", "Mass Abnormality Type",
   #  """
   #  This slice contains the optional component that refine the Mass Abnormality type.
-  #  The value of this component is a codeable concept chosen from the MassAbnormalityTypeVS valueset.
+  #  The value of this component is a codeable concept chosen from the rde1602_type valueset.
   #  """,
-  #  "ObservationComponentSliceCodesCS#abnormalityMassType")
-
-  #apply Observation.Component.SetConcept("massType", "1..1", "MassAbnormalityTypeVS")
+  #  "RadLexCDE#RDE1602")
+  #apply Observation.Component.SetConcept("breastMassType", "1..1", "rde1602_type")
 
   #apply Observation.Device.Zero()
   #apply Observation.Value.Zero()

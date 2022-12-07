@@ -22,7 +22,7 @@
   #  """,
   #  "RadLexCDE#RDE1568")
   #
-  #apply Observation.Component.SetConcept("obsDistribution", "1..1", "rde1568-observed-distribution")
+  #apply Observation.Component.SetConcept("obsDistribution", "1..1", "rde1568-distribution")
   #
   // Define distribution region size.
   #apply Observation.Component.Add("obsDistRegionSize", "0..1", "Observed Distribution Region Size", "Observed size of distribution region.",

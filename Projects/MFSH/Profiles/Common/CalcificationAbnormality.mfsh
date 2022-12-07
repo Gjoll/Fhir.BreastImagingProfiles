@@ -10,10 +10,10 @@ Description: """
  #apply Observation.Component.Add("calcificationPresence", "1..1", "Calcification Presence", "Calcification Presence",
   #  """
   #  This slice contains the required component that specifies the presence or absence of a calcification.
-  #  The value of this component is a codeable concept chosen from the rde1556-calcification-presence.
+  #  The value of this component is a codeable concept chosen from the rde1556-presence.
   #  """,
   #  "RadLexCDE#RDE1556")
-  #apply Observation.Component.SetConcept("calcificationPresence", "1..1", "rde1556-calcification-presence")
+  #apply Observation.Component.SetConcept("calcificationPresence", "1..1", "rde1556-presence")
 
   #apply Observation.Component.Add("calcificationType", "1..1", "Calcification Type", "Calcification Type",
   #  """

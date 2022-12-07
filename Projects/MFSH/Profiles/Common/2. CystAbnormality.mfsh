@@ -10,10 +10,10 @@ Description: """
   #apply Observation.Component.Add("cystPresence", "1..1", "Cyst Presence", "Cyst Presence",
   #  """
   #  This slice contains the required component that specifies the presence or absence of a cyst.
-  #  The value of this component is a codeable concept chosen from the rde1575-cyst valueset.
+  #  The value of this component is a codeable concept chosen from the rde1556-presence valueset.
   #  """,
-  #  "RadLexCDE#RDE1575")
-  #apply Observation.Component.SetConcept("cystPresence", "1..1", "rde1575-cyst-presence")
+  #  "RadLexCDE#RDE1556")
+  #apply Observation.Component.SetConcept("cystPresence", "1..1", "rde1556-presence")
 
   #apply Observation.Component.Add("cystType", "0..1", "Cyst Type", "Cyst Type",
   #  """

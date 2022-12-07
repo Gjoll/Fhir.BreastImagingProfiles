@@ -10,33 +10,33 @@ Description: """
 
 * . ^short = "Breast Body Location extension"
 
-  #apply Extension.CodeableConcept("laterality", "Laterality", "0..1", "RDE1557_BodySide", "Body side",
+  #apply Extension.CodeableConcept("laterality", "Laterality", "0..1", "rde1557-side", "Body side",
   #  """
   #  The side of the body being examined.
   #  """)
 
-  #apply Extension.CodeableConcept("quadrant", "Quadrant", "0..1", "RDE1563_QuadrantOfBreast", "Breast quadrant location",
+  #apply Extension.CodeableConcept("quadrant", "Quadrant", "0..1", "rde1563-quadrant", "Breast quadrant location",
   #  """
   #  The quadrant of the breast location.
   #  """)
 
-  #apply Extension.CodeableConcept("region", "Region", "0..1", "RDE1564_RegionOfBreast", "Region of the body location",
+  #apply Extension.CodeableConcept("region", "Region", "0..1", "rde1564-region", "Region of the body location",
   #  """
   #  The region  of the body location.
   #  """)
 
-  #apply Extension.CodeableConcept("clockDirection", "Clock Position", "0..1", "RDE1558_BreastBodyLocationClockPosition", "Clock Position of the body location",
+  #apply Extension.CodeableConcept("clockDirection", "Clock Position", "0..1", "rde1558-location", "Clock Position of the body location",
   #  """
   #  The clock direction of the body location.
   # """)
 
-  #apply Extension.CodeableConcept("depth", "Depth", "0..1", "RDE1559_BreastBodyLocationDepth", "Depth of the body location",
+  #apply Extension.CodeableConcept("depth", "Depth", "0..1", "rde1559-depth", "Depth of the body location",
   #  """
   #  The depth of the body location.
   # """)
 
 
-  #apply Extension.CodeableConcept("landmark", "Landmark", "0..*", "RDE1560_BreastBodyLandmark", "Body landmark. Origin of distance measurement.",
+  #apply Extension.CodeableConcept("landmark", "Landmark", "0..*", "rde1560-breast-body-landmark", "Body landmark. Origin of distance measurement.",
   #  """
   #  Body landmark which defines the origin of the measurement.
   #  """)

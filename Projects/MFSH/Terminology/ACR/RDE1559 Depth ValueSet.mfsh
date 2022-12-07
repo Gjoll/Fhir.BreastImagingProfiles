@@ -1,13 +1,13 @@
-ValueSet: RDE1557_BodySide
-Id: rde1557-body-side
-Title: "RDE1557 Body side"
+ValueSet: RDE1559_Depth
+Id: rde1559-depth
+Title: "RDE1559 Depth"
 Description: """
-    Breastlateralityofabnormalityobserved
+    AnteriordepthistheoutermostdepthclosesttothenippleofthebreastMiddledepthinbetweentheanteriorandposteriorportionofthebreastPosteriordepthclosesttothechestwallofthebreast
     """
-* ^date = 2022-10-27
+* ^date = 2022-12-02
 * ^status = #draft
 * insert ACRValueSetCommon
-* include codes from system RadLexCDE where concept is-a #RDE1557
+* include codes from system RadLexCDE where concept is-a #RDE1559
 
 
 

@@ -151,7 +151,6 @@ groups:
       - CodeSystem/AbnormalityFibroadenomaTypeCS   # ^CodeSystem/AbnormalityFibroadenomaTypeCS$
       - CodeSystem/ForeignObjectAbnormalityTypeCS   # ^CodeSystem/ForeignObjectAbnormalityTypeCS$
       - CodeSystem/LymphNodeAbnormalityTypeCS   # ^CodeSystem/LymphNodeAbnormalityTypeCS$
-      - CodeSystem/MassAbnormalityTypeCS   # ^CodeSystem/MassAbnormalityTypeCS$
       - CodeSystem/ObservationCodesCS   # ^CodeSystem/ObservationCodesCS$
       - CodeSystem/ObservedChangesCS   # ^CodeSystem/ObservedChangesCS$
       - CodeSystem/RadLexCDE   # ^CodeSystem/RadLexCDE$
@@ -172,22 +171,20 @@ groups:
       - ValueSet/FibroAdenomaAbnormalityTypeVS   # ^ValueSet/FibroAdenomaAbnormalityTypeVS$
       - ValueSet/ForeignObjectAbnormalityTypeVS   # ^ValueSet/ForeignObjectAbnormalityTypeVS$
       - ValueSet/LymphNodeAbnormalityTypeVS   # ^ValueSet/LymphNodeAbnormalityTypeVS$
-      - ValueSet/MassAbnormalityTypeVS   # ^ValueSet/MassAbnormalityTypeVS$
       - ValueSet/NotPreviouslySeenVS   # ^ValueSet/NotPreviouslySeenVS$
       - ValueSet/ObservedChangesVS   # ^ValueSet/ObservedChangesVS$
       - ValueSet/PreviouslyDemonstratedByVS   # ^ValueSet/PreviouslyDemonstratedByVS$
-      - ValueSet/rde1556-calcification-presence   # ^ValueSet/rde1556-calcification-presence$
-      - ValueSet/rde1557-body-side   # ^ValueSet/rde1557-body-side$
-      - ValueSet/rde1558-breast-body-location-clock-position   # ^ValueSet/rde1558-breast-body-location-clock-position$
-      - ValueSet/rde1559-breast-body-location-depth   # ^ValueSet/rde1559-breast-body-location-depth$
+      - ValueSet/rde1556-presence   # ^ValueSet/rde1556-presence$
+      - ValueSet/rde1557-side   # ^ValueSet/rde1557-side$
+      - ValueSet/rde1558-location   # ^ValueSet/rde1558-location$
+      - ValueSet/rde1559-depth   # ^ValueSet/rde1559-depth$
       - ValueSet/rde1560-breast-body-landmark   # ^ValueSet/rde1560-breast-body-landmark$
       - ValueSet/rde1562-laterality-from-landmark   # ^ValueSet/rde1562-laterality-from-landmark$
-      - ValueSet/rde1563-quadrant-of-breast   # ^ValueSet/rde1563-quadrant-of-breast$
-      - ValueSet/rde1564-region-of-breast   # ^ValueSet/rde1564-region-of-breast$
+      - ValueSet/rde1563-quadrant   # ^ValueSet/rde1563-quadrant$
+      - ValueSet/rde1564-region   # ^ValueSet/rde1564-region$
       - ValueSet/rde1565-type   # ^ValueSet/rde1565-type$
-      - ValueSet/rde1568-observed-distribution   # ^ValueSet/rde1568-observed-distribution$
+      - ValueSet/rde1568-distribution   # ^ValueSet/rde1568-distribution$
       - ValueSet/rde1571-associated-features   # ^ValueSet/rde1571-associated-features$
-      - ValueSet/rde1575-cyst-presence   # ^ValueSet/rde1575-cyst-presence$
       - ValueSet/rde1576-shape   # ^ValueSet/rde1576-shape$
       - ValueSet/rde1577-type   # ^ValueSet/rde1577-type$
       - ValueSet/rde1578-density   # ^ValueSet/rde1578-density$
@@ -198,5 +195,6 @@ groups:
       - ValueSet/rde1588-breast-laterality   # ^ValueSet/rde1588-breast-laterality$
       - ValueSet/rde1589-implant-presence   # ^ValueSet/rde1589-implant-presence$
       - ValueSet/rde1590-prior-mastectomy   # ^ValueSet/rde1590-prior-mastectomy$
+      - ValueSet/rde1602-type   # ^ValueSet/rde1602-type$
       - ValueSet/ServiceRecommendationsVS   # ^ValueSet/ServiceRecommendationsVS$
 #ISBuilderGroups End
