@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<specification xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ballotUrl="http://hl7.org/fhir/us/breast-radiology" ciUrl="http://hl7.org/fhir/us/breast-radiology" defaultVersion="0.2.0" defaultWorkgroup="cic" url="http://hl7.org/fhir/us/breast-radiology">
+<version code="current" url="http://hl7.org/fhir/us/breast-radiology"/>
+<version code="0.2.0" url="http://hl7.org/fhir/us/breast-radiology"/>
+<version code="0.1.0" deprecated="true" url="http://hl7.org/fhir/us/breast-radiology"/>
+<artifactPageExtension value="-definitions"/>
+<artifactPageExtension value="-examples"/>
+<artifactPageExtension value="-mappings"/>
+<artifact id="StructureDefinition/ArchitecturalDistortionAbnormality" key="StructureDefinition-ArchitecturalDistortionAbnormality" name="Architectural Distortion Abnormality"/>
+<artifact id="StructureDefinition/AssociatedFeature" key="StructureDefinition-AssociatedFeature" name="Associated Feature"/>
+<artifact id="StructureDefinition/AsymmetryAbnormality" key="StructureDefinition-AsymmetryAbnormality" name="Asymmetry Abnormality"/>
+<artifact id="CodeSystem/AsymmetryAbnormalityTypeCS" key="CodeSystem-AsymmetryAbnormalityTypeCS" name="Asymmetry Abnormality Type CodeSystem"/>
+<artifact id="ValueSet/AsymmetryAbnormalityTypeVS" key="ValueSet-AsymmetryAbnormalityTypeVS" name="Asymmetry Abnormality Type ValueSet"/>
+<artifact id="StructureDefinition/FindingsBiLateralBreast" key="StructureDefinition-FindingsBiLateralBreast" name="BiLateral Breast Findings"/>
+<artifact id="ValueSet/BreastAssessmentCategoryVS" key="ValueSet-BreastAssessmentCategoryVS" name="Breast Assessment Category ValueSet"/>
+<artifact id="StructureDefinition/BreastBodyLocationExtension" key="StructureDefinition-BreastBodyLocationExtension" name="Breast Body Location Extension"/>
+<artifact id="StructureDefinition/BreastComposition" key="StructureDefinition-BreastComposition" name="Breast Composition"/>
+<artifact id="StructureDefinition/BreastImagingComposition" key="StructureDefinition-BreastImagingComposition" name="Breast Imaging Composition"/>
+<artifact id="StructureDefinition/BreastImagingDocument" key="StructureDefinition-BreastImagingDocument" name="Breast Imaging Document"/>
+<artifact id="StructureDefinition/BreastMedicationRequest" key="StructureDefinition-BreastMedicationRequest" name="Breast Imaging Medication Request"/>
+<artifact id="StructureDefinition/BreastImagingReport" key="StructureDefinition-BreastImagingReport" name="Breast Imaging Report"/>
+<artifact id="ValueSet/BreastImagingReportTypesVS" key="ValueSet-BreastImagingReportTypesVS" name="Breast Imaging Report Types ValueSet"/>
+<artifact id="StructureDefinition/BreastServiceRequest" key="StructureDefinition-BreastServiceRequest" name="Breast Imaging Service Request"/>
+<artifact id="StructureDefinition/BreastLateralityExtension" key="StructureDefinition-BreastLateralityExtension" name="Breast Laterality Extension"/>
+<artifact id="StructureDefinition/CalcificationAbnormality" key="StructureDefinition-CalcificationAbnormality" name="Calcification Abnormality"/>
+<artifact id="ValueSet/CalcificationDistributionVS" key="ValueSet-CalcificationDistributionVS" name="CalcificationDistribution ValueSet"/>
+<artifact id="CodeSystem/ObservationComponentSliceCodesCS" key="CodeSystem-ObservationComponentSliceCodesCS" name="Component Slice Codes CodeSystem"/>
+<artifact id="CodeSystem/CompositionSectionSliceCodesCS" key="CodeSystem-CompositionSectionSliceCodesCS" name="Composition Section Slice Codes CodeSystem"/>
+<artifact id="StructureDefinition/ConsistentWith" key="StructureDefinition-ConsistentWith" name="Consistent With"/>
+<artifact id="CodeSystem/ConsistentWithQualifierCS" key="CodeSystem-ConsistentWithQualifierCS" name="ConsistentWith Qualifier CodeSystem"/>
+<artifact id="ValueSet/ConsistentWithQualifierVS" key="ValueSet-ConsistentWithQualifierVS" name="ConsistentWith Qualifier ValueSet"/>
+<artifact id="ValueSet/ConsistentWithVS" key="ValueSet-ConsistentWithVS" name="ConsistentWith ValueSet"/>
+<artifact id="CodeSystem/CorrespondsWithCS" key="CodeSystem-CorrespondsWithCS" name="CorrespondsWith CodeSystem"/>
+<artifact id="ValueSet/CorrespondsWithVS" key="ValueSet-CorrespondsWithVS" name="CorrespondsWith ValueSet"/>
+<artifact id="StructureDefinition/CystAbnormality" key="StructureDefinition-CystAbnormality" name="Cyst Abnormality"/>
+<artifact id="StructureDefinition/DensityAbnormality" key="StructureDefinition-DensityAbnormality" name="Density Abnormality"/>
+<artifact id="CodeSystem/DensityAbnormalityTypeCS" key="CodeSystem-DensityAbnormalityTypeCS" name="Density Abnormality Type CodeSystem"/>
+<artifact id="ValueSet/DensityAbnormalityTypeVS" key="ValueSet-DensityAbnormalityTypeVS" name="Density Abnormality Type ValueSet"/>
+<artifact id="StructureDefinition/DuctAbnormality" key="StructureDefinition-DuctAbnormality" name="Duct Abnormality"/>
+<artifact id="CodeSystem/DuctAbnormalityTypeCS" key="CodeSystem-DuctAbnormalityTypeCS" name="Duct Abnormality Type CodeSystem"/>
+<artifact id="ValueSet/DuctAbnormalityTypeVS" key="ValueSet-DuctAbnormalityTypeVS" name="Duct Abnormality Type ValueSet"/>
+<artifact id="StructureDefinition/FatNecrosisAbnormality" key="StructureDefinition-FatNecrosisAbnormality" name="Fat Necrosis Abnormality"/>
+<artifact id="ValueSet/FibroAdenomaAbnormalityTypeVS" key="ValueSet-FibroAdenomaAbnormalityTypeVS" name="FibroAdenoma Abnormality Type ValueSet"/>
+<artifact id="StructureDefinition/FibroadenomaAbnormality" key="StructureDefinition-FibroadenomaAbnormality" name="Fibroadenoma Abnormality"/>
+<artifact id="CodeSystem/AbnormalityFibroadenomaTypeCS" key="CodeSystem-AbnormalityFibroadenomaTypeCS" name="Fibroadenoma Abnormality Type CodeSystem"/>
+<artifact id="StructureDefinition/ForeignObjectAbnormality" key="StructureDefinition-ForeignObjectAbnormality" name="Foreign Object Abnormality"/>
+<artifact id="CodeSystem/ForeignObjectAbnormalityTypeCS" key="CodeSystem-ForeignObjectAbnormalityTypeCS" name="Foreign Object Abnormality Type CodeSystem"/>
+<artifact id="ValueSet/ForeignObjectAbnormalityTypeVS" key="ValueSet-ForeignObjectAbnormalityTypeVS" name="Foreign Object Abnormality Type ValueSet"/>
+<artifact id="StructureDefinition/FindingsLeftBreast" key="StructureDefinition-FindingsLeftBreast" name="Left Breast Findings"/>
+<artifact id="CodeSystem/LymphNodeAbnormalityTypeCS" key="CodeSystem-LymphNodeAbnormalityTypeCS" name="Lymph Node Type CodeSystem"/>
+<artifact id="ValueSet/LymphNodeAbnormalityTypeVS" key="ValueSet-LymphNodeAbnormalityTypeVS" name="Lymph Node Type ValueSet"/>
+<artifact id="StructureDefinition/LymphNodeAbnormality" key="StructureDefinition-LymphNodeAbnormality" name="LymphNode Abnormality Abnormality"/>
+<artifact id="StructureDefinition/MRIFinding" key="StructureDefinition-MRIFinding" name="MRI Finding"/>
+<artifact id="StructureDefinition/MGFinding" key="StructureDefinition-MGFinding" name="Mammography Finding"/>
+<artifact id="StructureDefinition/MassAbnormality" key="StructureDefinition-MassAbnormality" name="Mass Abnormality"/>
+<artifact id="ValueSet/NotPreviouslySeenVS" key="ValueSet-NotPreviouslySeenVS" name="NotPreviouslySeen ValueSet"/>
+<artifact id="StructureDefinition/NMFinding" key="StructureDefinition-NMFinding" name="Nuclear Medicine Finding"/>
+<artifact id="CodeSystem/ObservationCodesCS" key="CodeSystem-ObservationCodesCS" name="Observation Codes CodeSystem"/>
+<artifact id="CodeSystem/ObservedChangesCS" key="CodeSystem-ObservedChangesCS" name="Observed Changes CodeSystem"/>
+<artifact id="ValueSet/ObservedChangesVS" key="ValueSet-ObservedChangesVS" name="ObservedChanges ValueSet"/>
+<artifact id="StructureDefinition/OtherModalityFinding" key="StructureDefinition-OtherModalityFinding" name="Other Finding"/>
+<artifact id="ValueSet/PreviouslyDemonstratedByVS" key="ValueSet-PreviouslyDemonstratedByVS" name="PreviouslyDemonstratedBy ValueSet"/>
+<artifact id="ValueSet/rde1556-presence" key="ValueSet-rde1556-presence" name="RDE1556 Presence"/>
+<artifact id="ValueSet/rde1557-side" key="ValueSet-rde1557-side" name="RDE1557 Side"/>
+<artifact id="ValueSet/rde1558-location" key="ValueSet-rde1558-location" name="RDE1558 Location"/>
+<artifact id="ValueSet/rde1559-depth" key="ValueSet-rde1559-depth" name="RDE1559 Depth"/>
+<artifact id="ValueSet/rde1560-breast-body-landmark" key="ValueSet-rde1560-breast-body-landmark" name="RDE1560 Breast body landmark"/>
+<artifact id="ValueSet/rde1562-laterality-from-landmark" key="ValueSet-rde1562-laterality-from-landmark" name="RDE1562 Laterality from landmark"/>
+<artifact id="ValueSet/rde1563-quadrant" key="ValueSet-rde1563-quadrant" name="RDE1563 Quadrant"/>
+<artifact id="ValueSet/rde1564-region" key="ValueSet-rde1564-region" name="RDE1564 Region"/>
+<artifact id="ValueSet/rde1565-type" key="ValueSet-rde1565-type" name="RDE1565 Type"/>
+<artifact id="ValueSet/rde1568-distribution" key="ValueSet-rde1568-distribution" name="RDE1568 Distribution"/>
+<artifact id="ValueSet/rde1571-associated-features" key="ValueSet-rde1571-associated-features" name="RDE1571 Associated features"/>
+<artifact id="ValueSet/rde1576-shape" key="ValueSet-rde1576-shape" name="RDE1576 Shape"/>
+<artifact id="ValueSet/rde1577-type" key="ValueSet-rde1577-type" name="RDE1577 Type"/>
+<artifact id="ValueSet/rde1578-density" key="ValueSet-rde1578-density" name="RDE1578 Density"/>
+<artifact id="ValueSet/rde1579-margin" key="ValueSet-rde1579-margin" name="RDE1579 Margin"/>
+<artifact id="ValueSet/rde1580-orientation" key="ValueSet-rde1580-orientation" name="RDE1580 Orientation"/>
+<artifact id="ValueSet/rde1586-assessment-category" key="ValueSet-rde1586-assessment-category" name="RDE1586 Assessment category"/>
+<artifact id="ValueSet/rde1587-breast-composition-category" key="ValueSet-rde1587-breast-composition-category" name="RDE1587 Breast composition category"/>
+<artifact id="ValueSet/rde1588-breast-laterality" key="ValueSet-rde1588-breast-laterality" name="RDE1588 Breast laterality"/>
+<artifact id="ValueSet/rde1589-implant-presence" key="ValueSet-rde1589-implant-presence" name="RDE1589 Implant presence"/>
+<artifact id="ValueSet/rde1590-prior-mastectomy" key="ValueSet-rde1590-prior-mastectomy" name="RDE1590 Prior mastectomy"/>
+<artifact id="ValueSet/rde1602-type" key="ValueSet-rde1602-type" name="RDE1602 Type"/>
+<artifact id="CodeSystem/RadLexCDE" key="CodeSystem-RadLexCDE" name="RadLex CDE's"/>
+<artifact id="StructureDefinition/FindingsRightBreast" key="StructureDefinition-FindingsRightBreast" name="Right Breast Findings"/>
+<artifact id="StructureDefinition/ServiceRecommendation" key="StructureDefinition-ServiceRecommendation" name="Service Recommendation"/>
+<artifact id="CodeSystem/ServiceRecommendationsCS" key="CodeSystem-ServiceRecommendationsCS" name="ServiceRecommendations CodeSystem"/>
+<artifact id="ValueSet/ServiceRecommendationsVS" key="ValueSet-ServiceRecommendationsVS" name="ServiceRecommendations ValueSet"/>
+<artifact id="StructureDefinition/SkinLesionAbnormality" key="StructureDefinition-SkinLesionAbnormality" name="Skin Lesion Abnormality"/>
+<artifact id="StructureDefinition/TumorSatellite" key="StructureDefinition-TumorSatellite" name="Tumor Satellite"/>
+<artifact id="StructureDefinition/USFinding" key="StructureDefinition-USFinding" name="Ultrasound Finding"/>
+<page key="NA" name="(NA)"/>
+<page key="many" name="(many)"/>
+<page key="artifacts" name="Artifacts Summary"/>
+<page key="background" name="Background"/>
+<page key="changes" name="Changes"/>
+<page key="downloads" name="Downloads"/>
+<page key="fullGraph" name="Full Graph"/>
+<page key="index" name="Home"/>
+<page key="overview" name="Overview"/>
+<page key="toc" name="Table of Contents"/>
+</specification>
